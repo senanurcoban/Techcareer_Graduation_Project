@@ -1,0 +1,14 @@
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.EntityLayer\bin\Debug\net7.0\PizzaPan.EntityLayer.deps.json
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.EntityLayer\bin\Debug\net7.0\PizzaPan.EntityLayer.runtimeconfig.json
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.EntityLayer\bin\Debug\net7.0\PizzaPan.EntityLayer.dll
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.EntityLayer\bin\Debug\net7.0\PizzaPan.EntityLayer.pdb
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.EntityLayer\obj\Debug\net7.0\PizzaPan.EntityLayer.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.EntityLayer\obj\Debug\net7.0\PizzaPan.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.EntityLayer\obj\Debug\net7.0\PizzaPan.EntityLayer.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.EntityLayer\obj\Debug\net7.0\PizzaPan.EntityLayer.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.EntityLayer\obj\Debug\net7.0\PizzaPan.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.EntityLayer\obj\Debug\net7.0\PizzaPan.EntityLayer.dll
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.EntityLayer\obj\Debug\net7.0\refint\PizzaPan.EntityLayer.dll
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.EntityLayer\obj\Debug\net7.0\PizzaPan.EntityLayer.pdb
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.EntityLayer\obj\Debug\net7.0\PizzaPan.EntityLayer.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.EntityLayer\obj\Debug\net7.0\ref\PizzaPan.EntityLayer.dll

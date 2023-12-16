@@ -1,0 +1,17 @@
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.DataAccessLayer\bin\Debug\net7.0\PizzaPan.DataAccessLayer.deps.json
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.DataAccessLayer\bin\Debug\net7.0\PizzaPan.DataAccessLayer.runtimeconfig.json
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.DataAccessLayer\bin\Debug\net7.0\PizzaPan.DataAccessLayer.dll
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.DataAccessLayer\bin\Debug\net7.0\PizzaPan.DataAccessLayer.pdb
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.DataAccessLayer\bin\Debug\net7.0\PizzaPan.EntityLayer.dll
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.DataAccessLayer\bin\Debug\net7.0\PizzaPan.EntityLayer.pdb
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.DataAccessLayer\obj\Debug\net7.0\PizzaPan.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.DataAccessLayer\obj\Debug\net7.0\PizzaPan.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.DataAccessLayer\obj\Debug\net7.0\PizzaPan.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.DataAccessLayer\obj\Debug\net7.0\PizzaPan.DataAccessLayer.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.DataAccessLayer\obj\Debug\net7.0\PizzaPan.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.DataAccessLayer\obj\Debug\net7.0\PizzaPan.DataAccessLayer.csproj.CopyComplete
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.DataAccessLayer\obj\Debug\net7.0\PizzaPan.DataAccessLayer.dll
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.DataAccessLayer\obj\Debug\net7.0\refint\PizzaPan.DataAccessLayer.dll
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.DataAccessLayer\obj\Debug\net7.0\PizzaPan.DataAccessLayer.pdb
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.DataAccessLayer\obj\Debug\net7.0\PizzaPan.DataAccessLayer.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\Techcareer_Graduation_Project\PizzaPan\PizzaPan.DataAccessLayer\obj\Debug\net7.0\ref\PizzaPan.DataAccessLayer.dll

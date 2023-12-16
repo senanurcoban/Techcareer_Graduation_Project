@@ -1,0 +1,234 @@
+﻿
+@{
+    <!-- ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_UILayout.cshtml";-->
+    Layout=null;
+  
+}
+<!doctype html>
+<html lang="en">
+
+@await Component.InvokeAsync("_HeadPartial")
+
+<body>
+    @await Component.InvokeAsync("_NavbarPartial")
+    @await Component.InvokeAsync("_ContactUsPartial")
+
+    @await Component.InvokeAsync("_FeaturePartial")
+
+
+<section class="w3l-about py-5">
+    <div class="container py-lg-5 py-md-4">
+        <div class="row">
+            <div class="col-lg-6">
+                    <h3>Şehrinizdeki En İyi Pizza ve Burgerleri Yapıyoruz</h3>
+                <h5 class="mt-lg-3 mt-2">
+                        Şehrinizdeki en iyi ve en lezzetli pizzaları tatmak için sipariş verin.
+                </h5>
+               
+                    <a href="/Default/About" class="btn-style btn-primary btn mt-lg-5 mt-4">Hakkımızda daha fazlasını öğrenin!</a>
+            </div>
+            <div class="col-lg-6 mt-lg-0 mt-5">
+                <div class="row">
+                    <div class="col-6 features-with-17-left1">
+                        <a href="#url" class="icon"><img src="~/pizzapan-starter/assets/images/pizza.png" alt="" /></a>
+                        <h4><a href="#url">Pizza</a></h4>
+                    </div>
+                    <div class="col-6 features-with-17-left1">
+                        <a href="#url" class="icon"><img src="~/pizzapan-starter/assets/images/burger.png" alt="" /></a>
+                        <h4><a href="#url">Burger</a></h4>
+                    </div>
+                    <div class="col-6 features-with-17-left1 mt-5 pt-lg-3">
+                        <a href="#url" class="icon"><img src="~/pizzapan-starter/assets/images/drink.png" alt="" /></a>
+                        <h4><a href="#url"> İçecekler!</a></h4>
+                    </div>
+                    <div class="col-6 features-with-17-left1 mt-5 pt-lg-3">
+                        <a href="#url" class="icon"><img src="~/pizzapan-starter/assets/images/fries.png" alt="" /></a>
+                        <h4><a href="#url">Kızarmış Patates</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="w3l-block py-5">
+    <div class="container py-lg-5 py-md-4">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 align-self">
+                <h3>Önce Pizza sonra bir teslim alma zamanı seç?</h3>
+                <p class="mt-md-4 mt-3 mb-0">
+                        Online uygulamamız üzerinden <b>teslim alma saatini</b> seçme şansın var.Detaylar için aşağıdaki butona tıklaman yeterli!
+                </p>
+                <a href="/Login/Index" class="btn-style btn-primary btn mt-lg-5 mt-4"><span class="fa fa-shopping-cart mr-2"></span> Online Sipariş</a>
+            </div>
+            <div class="col-lg-4 col-md-6 align-self mt-md-0 mt-5">
+                    <h3>Online sipariş verdiğinizde puan kazanın</h3>
+                <p class="mt-md-4 mt-3 mb-0">
+                        Online uygulamamız üzerinden <i><b>sipariş</b></i> verin ve siparişler hakkında <i><b>yorum</b></i> yapın hesabınızda puan biriksin:)
+                </p>
+                    <a href="/Default/About" class="btn-style btn-primary btn mt-lg-5 mt-4"><span class="fa fa-book mr-2"></span> Daha fazla bilgi için</a>
+            </div>
+            <div class="col-lg-4 mt-lg-0 mt-5">
+                <img src="~/pizzapan-starter/assets/images/a1.jpg" class="img-fluid radius-image" alt="image">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="w3l-portfolio-8 py-5">
+    <div class="portfolio-main py-lg-5 py-md-4">
+        <div class="container">
+            <div class="title-content text-center">
+                <h6 class="sub-title">Galerimiz</h6>
+                <h3 class="title-big">Pizzalarımızdan Bazıları...</h3>
+            </div>
+            <div class="row galler-top mt-lg-5 mt-4">
+                <div class="col-md-3 col-6 protfolio-item hover14 align-self">
+                    <a href="~/pizzapan-starter/assets/images/g6.jpg" data-lightbox="example-set"
+                       data-title="lorem ipsum dolor sit amet">
+                        <figure>
+                            <img src="~/pizzapan-starter/assets/images/g6.jpg" alt="product" class="img-fluid radius-image">
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-md-3 col-6 protfolio-item hover14">
+                    <a href="~/pizzapan-starter/assets/images/g1.jpg" data-lightbox="example-set" class="mb-4"
+                       data-title="lorem ipsum dolor sit amet">
+                        <figure>
+                            <img src="~/pizzapan-starter/assets/images/g1.jpg" alt="product" class="img-fluid radius-image">
+                        </figure>
+                    </a>
+                    <a href="~/pizzapan-starter/assets/images/g2.jpg" data-lightbox="example-set"
+                       data-title="lorem ipsum dolor sit amet">
+                        <figure>
+                            <img src="~/pizzapan-starter/assets/images/g2.jpg" alt="product" class="img-fluid radius-image">
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-md-3 col-6 protfolio-item hover14">
+                    <a href="assets/images/g3.jpg" data-lightbox="example-set" class="mb-4"
+                       data-title="lorem ipsum dolor sit amet">
+                        <figure>
+                            <img src="~/pizzapan-starter/assets/images/g3.jpg" alt="product" class="img-fluid radius-image">
+                        </figure>
+                    </a>
+                    <a href="~/pizzapan-starter/assets/images/g6.jpg" data-lightbox="example-set"
+                       data-title="lorem ipsum dolor sit amet">
+                        <figure>
+                            <img src="~/pizzapan-starter/assets/images/g6.jpg" alt="product" class="img-fluid radius-image">
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-md-3 col-6 protfolio-item hover14 align-self">
+                    <a href="assets/images/g1.jpg" data-lightbox="example-set"
+                       data-title="lorem ipsum dolor sit amet">
+                        <figure>
+                            <img src="~/pizzapan-starter/assets/images/g1.jpg" alt="product" class="img-fluid radius-image">
+                        </figure>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+ 
+    @await Component.InvokeAsync("_ProductPartial")
+<!--/testimonials-->
+<!-- <section class="w3l-testimonials" id="testimonials">
+    <div class="testimonials py-5">
+        <div class="container py-lg-5 py-md-4">
+            <div class="title-content text-center">
+                <h6 class="sub-title">Testimonials</h6>
+                <h3 class="title-big">What our Clients say</h3>
+            </div>
+            <div class="row mt-lg-5 mt-4">
+                <div class="col-md-12 mx-auto">
+                    <div class="owl-two owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="slider-info">
+                                <div class="message">
+                                    <span class="fa fa-quote-left"></span>
+                                    <h5>
+                                        Lorem ipsum dolor sit amet consect etur adipisicing elit. Ea sit id
+                                        officia quod quasi necess itatibus Harum necess itatibus
+                                        error dam tenetur dolor elit sed init amet.
+                                    </h5>
+                                    <div class="name mt-4">
+                                        <h4>Phillip Hunt</h4>
+                                        <p>CEO, Zomato</p>
+                                    </div>
+                                </div>
+                                <div class="img-circle">
+                                    <img src="~/pizzapan-starter/assets/images/client1.jpg" class="img-fluid testimonial-img radius-image" alt="client">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="slider-info">
+                                <div class="message">
+                                    <span class="fa fa-quote-left"></span>
+                                    <h5>
+                                        Lorem ipsum dolor sit amet consect etur adipisicing elit. Ea sit id
+                                        officia quod quasi necess itatibus Harum necess itatibus
+                                        error dam tenetur dolor elit sed init amet.
+                                    </h5>
+                                    <div class="name mt-4">
+                                        <h4>Sara Grant</h4>
+                                        <p>Example Company</p>
+                                    </div>
+                                </div>
+                                <div class="img-circle">
+                                    <img src="~/pizzapan-starter/assets/images/client2.jpg" class="img-fluid testimonial-img radius-image" alt="client">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="slider-info">
+                                <div class="message">
+                                    <span class="fa fa-quote-left"></span>
+                                    <h5>
+                                        Lorem ipsum dolor sit amet consect etur adipisicing elit. Ea sit id
+                                        officia quod quasi necess itatibus Harum necess itatibus
+                                        error dam tenetur dolor elit sed init amet.
+                                    </h5>
+                                    <div class="name mt-4">
+                                        <h4>Luke Jacobs</h4>
+                                        <p>Example Company</p>
+                                    </div>
+                                </div>
+                                <div class="img-circle">
+                                    <img src="~/pizzapan-starter/assets/images/client3.jpg" class="img-fluid testimonial-img radius-image" alt="client">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="slider-info mt-lg-4 mt-3">
+                                <div class="message">
+                                    <span class="fa fa-quote-left"></span>
+                                    <h5>
+                                        Lorem ipsum dolor sit amet consect etur adipisicing elit. Ea sit id
+                                        officia quod quasi necess itatibus Harum necess itatibus
+                                        error dam tenetur dolor elit sed init amet.
+                                    </h5>
+                                    <div class="name mt-4">
+                                        <h4>Claire Olson</h4>
+                                        <p>Example Company</p>
+                                    </div>
+                                </div>
+                                <div class="img-circle">
+                                    <img src="~/pizzapan-starter/assets/images/client4.jpg" class="img-fluid testimonial-img radius-image" alt="client">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>-->
+@await Component.InvokeAsync("_TestimonialPartial")
+<!--//testimonials-->
+@await Component.InvokeAsync("_FooterPartial")
+
+@await Component.InvokeAsync("_ScriptPartial")
+</body>
+</html>
