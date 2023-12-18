@@ -333,24 +333,20 @@
       "PackagePath": "staticwebassets\\pizzapan-starter\\assets\\images\\ayran.jpg"
     },
     {
+      "Id": "C:\\Users\\ASUS\\Desktop\\Techcareer_Graduation_Project\\PizzaPan\\PizzaPan\\wwwroot\\pizzapan-starter\\assets\\images\\bbq_chicken.jpg",
+      "PackagePath": "staticwebassets\\pizzapan-starter\\assets\\images\\bbq_chicken.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\Techcareer_Graduation_Project\\PizzaPan\\PizzaPan\\wwwroot\\pizzapan-starter\\assets\\images\\bbq_pizza.jpg",
+      "PackagePath": "staticwebassets\\pizzapan-starter\\assets\\images\\bbq_pizza.jpg"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\Desktop\\Techcareer_Graduation_Project\\PizzaPan\\PizzaPan\\wwwroot\\pizzapan-starter\\assets\\images\\burger.png",
       "PackagePath": "staticwebassets\\pizzapan-starter\\assets\\images\\burger.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Techcareer_Graduation_Project\\PizzaPan\\PizzaPan\\wwwroot\\pizzapan-starter\\assets\\images\\client1.jpg",
-      "PackagePath": "staticwebassets\\pizzapan-starter\\assets\\images\\client1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Techcareer_Graduation_Project\\PizzaPan\\PizzaPan\\wwwroot\\pizzapan-starter\\assets\\images\\client2.jpg",
-      "PackagePath": "staticwebassets\\pizzapan-starter\\assets\\images\\client2.jpg"
-    },
-    {
       "Id": "C:\\Users\\ASUS\\Desktop\\Techcareer_Graduation_Project\\PizzaPan\\PizzaPan\\wwwroot\\pizzapan-starter\\assets\\images\\client3.jpg",
       "PackagePath": "staticwebassets\\pizzapan-starter\\assets\\images\\client3.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Techcareer_Graduation_Project\\PizzaPan\\PizzaPan\\wwwroot\\pizzapan-starter\\assets\\images\\client4.jpg",
-      "PackagePath": "staticwebassets\\pizzapan-starter\\assets\\images\\client4.jpg"
     },
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\Techcareer_Graduation_Project\\PizzaPan\\PizzaPan\\wwwroot\\pizzapan-starter\\assets\\images\\close.png",
@@ -447,6 +443,10 @@
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\Techcareer_Graduation_Project\\PizzaPan\\PizzaPan\\wwwroot\\pizzapan-starter\\assets\\images\\teams1iconright.png",
       "PackagePath": "staticwebassets\\pizzapan-starter\\assets\\images\\teams1iconright.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\Techcareer_Graduation_Project\\PizzaPan\\PizzaPan\\wwwroot\\pizzapan-starter\\assets\\images\\tonbalıklı_pizza_.jpg",
+      "PackagePath": "staticwebassets\\pizzapan-starter\\assets\\images\\tonbalıklı_pizza_.jpg"
     },
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\Techcareer_Graduation_Project\\PizzaPan\\PizzaPan\\wwwroot\\pizzapan-starter\\assets\\js\\bootstrap.min.js",
