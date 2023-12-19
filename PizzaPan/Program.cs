@@ -4,6 +4,7 @@ using PizzaPan.DataAccessLayer.Abstract;
 using PizzaPan.DataAccessLayer.Concrete;
 using PizzaPan.DataAccessLayer.EntityFramework;
 using PizzaPan.EntityLayer.Concrete;
+using PizzaPan.PresentationLayer.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -34,7 +35,8 @@ builder.Services.AddScoped<IOurTeamDal, EfOurTeamDal>();
 
 
 
-
+builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>()
+     .AddErrorDescriber<CustomIdentityValidator>();
 
 
 // Add services to the container.
@@ -58,7 +60,7 @@ if (!app.Environment.IsDevelopment())
     app.UseStaticFiles();
 
     app.UseRouting();
-
+    app.UseAuthentication();
     app.UseAuthorization();
 
     app.MapControllerRoute(

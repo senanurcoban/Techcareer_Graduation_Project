@@ -1,0 +1,177 @@
+﻿@using PizzaPan.PresentationLayer.Models
+@model RegisterViewModel
+@{
+    Layout = null;
+}
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!--<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<form method="post">
+    <div class="container">
+        <br><br />
+        <label>Adınız</label>
+        <input type="text" class="form-control" asp-for="Name" />
+        <br />
+        <label>Soyadınız</label>
+        <input type="text" class="form-control" asp-for="Surname" />
+        <br />
+        <label>Kullanıcı Adı</label>
+        <input type="text" class="form-control" asp-for="Username" />
+        <br />
+        <label>Email Adresiniz</label>
+        <input type="text" class="form-control" asp-for="Email" />
+        <br />
+        <label>Şifreniz</label>
+        <input type="password" class="form-control" asp-for="Password" />
+        <br />
+        <label>Şifre Tekrar</label>
+        <input type="password" class="form-control" asp-for="ConfirmPassword" />
+        <br />
+        <button class="btn btn-primary">Kayıt Ol</button>
+        <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+    </div>
+</form>
+-->
+
+<!DOCTYPE html>
+<html>
+<style>
+    body {
+        background: #328f8a;
+        font-family: sans-serif;
+    }
+
+    form {
+        width: 500px;
+        margin: 8% auto;
+        padding: 50px 0;
+        text-align: center;
+        box-shadow: 0 20px 40px rgb(0,0,0);
+    }
+
+    .input-box {
+        margin: 30px auto;
+        width: 80%;
+        position: relative;
+        box-shadow: 0 8px 10px -10px rgb(0,0,0);
+    }
+
+        .input-box input {
+            width: 100%;
+            height: 40px;
+            border: none;
+            background: #efefef;
+            padding-left: 50px;
+        }
+
+    span {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 40px;
+        width: 40px;
+        background: linear-gradient(to right,#4CAF50,#00BCD4);
+    }
+
+        span .fa {
+            padding: 10px;
+            color: #fff;
+        }
+
+    button {
+        width: 130px;
+        height: 40px;
+        margin-left: 10%;
+        display: block;
+        color: #fff;
+        border: 0;
+        font-size: 16px;
+        outline: none;
+        background: linear-gradient(to right,#4CAF50,#00BCD4);
+        box-shadow: 0 8px 10px -10px rgb(0,0,0);
+        cursor: pointer;
+    }
+
+        button .fa {
+            margin-right: 10px;
+        }
+
+    form img {
+        width: 100px;
+        margin-top: -100px;
+    }
+
+    .password-strength-indicator {
+        font-size: 12px;
+        display: inline-block;
+        height: 15px;
+        min-width: 20%;
+        text-align: center;
+        transition: 1s;
+        margin: 50px 0;
+        color: #fff;
+    }
+
+        .password-strength-indicator.very-weak {
+            background: #cf0000;
+            width: 20%;
+        }
+
+        .password-strength-indicator.weak {
+            background: #f6891f;
+            width: 40%;
+        }
+
+        .password-strength-indicator.mediocre {
+            background: #eeee00;
+            width: 60%;
+        }
+
+        .password-strength-indicator.strong {
+            background: #99ff33;
+            width: 80%;
+        }
+
+        .password-strength-indicator.very-strong {
+            background: #22cf00;
+            width: 100%;
+        }
+</style>
+<head></head>
+<body>
+    <form>
+        <img src="~/pizzapan-starter/assets/images/user_iconn.jpg">
+        <div class="input-box">
+            <span><i class="fa fa-user-o"></i></span>
+            <input type="text" placeholder="Kullanıcı Adı" required>
+        </div>
+        <div class="input-box">
+            <span><i class="fa fa-envelope-o"></i></span>
+            <input type="eposta" placeholder="E-Posta Adresi " required>
+        </div>
+        <div class="input-box">
+            <span><i class="fa fa-key"></i></span>
+            <input type="password" id="password" placeholder="Şifre" required>
+        </div>
+        <div class="input-box">
+            <span><i class="fa fa-key"></i></span>
+            <input type="password" id="password" placeholder="Şifre (Tekrar)" required>
+        </div>
+
+       
+        <br>
+        <button type="submit"><i class="fa fa-sign-in"></i>Kayıt OL</button>
+    </form>
+
+    <script type="text/javascript">
+        $(function () {
+            $("#password").passwordStrength();
+        });
+    </script>
+
+
+</body>
+</html>

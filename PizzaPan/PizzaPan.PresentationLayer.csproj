@@ -29,4 +29,8 @@
     <ProjectReference Include="..\PizzaPan.EntityLayer\PizzaPan.EntityLayer.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
 </Project>
