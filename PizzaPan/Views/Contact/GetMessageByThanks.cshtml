@@ -1,12 +1,11 @@
 ﻿@using PizzaPan.EntityLayer.Concrete
 @model List<Contact>
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "GetMessageByThanks";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
-    int count = 0;
 }
 
-<h1>Gelen Mesajlar</h1>
+<h1>Teşekkür Mesajları</h1>
 
 <table class="table table-bordered">
     <tr>
@@ -19,9 +18,9 @@
     </tr>
     @foreach (var item in Model)
     {
-        count++;
+        
         <tr>
-            <td>@count</td>
+           
             <td>@item.Name</td>
             <td>@item.Subject</td>
             <td>@(((DateTime)item.SendDateMessage).ToString("dd-MMM-yyyy"))</td>

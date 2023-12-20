@@ -27,8 +27,7 @@ namespace PizzaPan.PresentationLayer.Controllers
             
             AppUser appUser = new AppUser()
             {
-                Name = model.Name,
-                Surname = model.Surname,
+               
                 Email = model.Email,
                 UserName = model.Username,
                 

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PizzaPan.BusinessLayer.ValidationRules
+namespace PizzaPan.BusinessLayer.ValidationRules.OurTeamValidator
 {
     public class CreateOurTeamValidator : AbstractValidator<OurTeam>
     {
