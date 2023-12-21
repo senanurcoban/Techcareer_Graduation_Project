@@ -5,7 +5,7 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h1>Kategori Ekleme Sayfası</h1>
+<h1>Yeni Ürün Ekleme Sayfası</h1>
 
 
 <form method="post">
@@ -20,7 +20,8 @@
     <input asp-for="CategoryID" class="form-control" style="background-color:#b1b3b1" />
     <br />
     <label>Ürün Görsel</label>
-    <input asp-for="ImageUrl" class="form-control" style="background-color:#b1b3b1" />
+   @* <input asp-for="ImageUrl" class="form-control" style="background-color:#b1b3b1" />*@
+    <input type="file" class="form-control border" asp-for="ImageUrl" style="background-color:#b1b3b1" />
     <br />
     <label>Ürün Açıklaması</label>
     <input asp-for="Description" class="form-control" style="background-color:#b1b3b1" />

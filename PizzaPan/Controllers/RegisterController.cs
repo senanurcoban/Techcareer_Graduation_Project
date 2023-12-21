@@ -3,6 +3,10 @@ using Microsoft.AspNetCore.Mvc;
 using PizzaPan.EntityLayer.Concrete;
 using PizzaPan.PresentationLayer.Models;
 using System.Net.Mail;
+using MimeKit;
+using MailKit.Net.Smtp;
+using System.Threading.Tasks;
+using System;
 
 namespace PizzaPan.PresentationLayer.Controllers
 {
@@ -24,34 +28,16 @@ namespace PizzaPan.PresentationLayer.Controllers
         [HttpPost]
         public async Task<IActionResult> Index(RegisterViewModel model)
         {
-            
-            AppUser appUser = new AppUser()
-            {
-               
-                Email = model.Email,
-                UserName = model.Username,
-                
-            }; if (model.Password == model.ConfirmPassword)
-            {
-                var result = await _userManager.CreateAsync(appUser, model.Password);
-                if (result.Succeeded)
-                {
-                    return RedirectToAction("Index", "Login");
-                }
-                else
-                {
-                    foreach (var item in result.Errors)
-                    {
-                        ModelState.AddModelError("", item.Description);
-                    }
-                }
-               
-        }
-            return View(model);
+
+            return View();
+        }        
+
+
+
+
+
+
+
     }
-
-
-
-}
 
 }

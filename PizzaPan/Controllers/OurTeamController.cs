@@ -2,7 +2,6 @@
 using PizzaPan.BusinessLayer.Abstract;
 using PizzaPan.BusinessLayer.ValidationRules.OurTeamValidator;
 using PizzaPan.EntityLayer.Concrete;
-using System.ComponentModel.DataAnnotations;
 using FluentValidation.Results;
 
 namespace PizzaPan.PresentationLayer.Controllers
@@ -25,9 +24,27 @@ namespace PizzaPan.PresentationLayer.Controllers
         {
             return View();
         }
+        [HttpPost]
+        public IActionResult AddOurTeam(OurTeam ourTeam)
+        {
+            CreateOurTeamValidator createOurTeamValidator = new CreateOurTeamValidator();
+            ValidationResult result = createOurTeamValidator.Validate(ourTeam);
+            if (result.IsValid)
+            {
+                _ourTeamService.TInsert(ourTeam);
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                foreach (var item in result.Errors)
+                {
+                    ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
+                }
+            }
+            return View();
+        }
 
-       
-               
+
         public IActionResult DeleteOurTeam(int id)
         {
             var value = _ourTeamService.TGetByID(id);
