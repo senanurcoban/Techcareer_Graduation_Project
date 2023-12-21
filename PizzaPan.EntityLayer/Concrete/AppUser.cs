@@ -9,9 +9,9 @@ namespace PizzaPan.EntityLayer.Concrete
 {
     public class AppUser : IdentityUser<int>
     {
-        public string Name { get; set; }
-        public string Surname { get; set; }
-        public string City { get; set; }
+        public string? Name { get; set; }
+        public string? Surname { get; set; }
+        public string? City { get; set; }
         public int? ConfirmCode { get; set; }
     }
 }
