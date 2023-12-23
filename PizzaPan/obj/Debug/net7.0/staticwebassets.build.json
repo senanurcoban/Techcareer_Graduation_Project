@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "I4c+mho+aVqHF6y77OQTMN2X/Zig6BB9vItqDX/ZADY=",
+  "Hash": "HxrjfSG6dYtZ81Wq0rCts0wK8oXd1rZWl3ydDkL59v8=",
   "Source": "PizzaPan.PresentationLayer",
   "BasePath": "_content/PizzaPan.PresentationLayer",
   "Mode": "Default",
@@ -1292,23 +1292,6 @@
       "OriginalItemSpec": "wwwroot\\pizzapan-starter\\assets\\images\\asci8.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\Desktop\\Techcareer_Graduation_Project\\PizzaPan\\PizzaPan\\wwwroot\\pizzapan-starter\\assets\\images\\ayran.jpg",
-      "SourceId": "PizzaPan.PresentationLayer",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\Desktop\\Techcareer_Graduation_Project\\PizzaPan\\PizzaPan\\wwwroot\\",
-      "BasePath": "_content/PizzaPan.PresentationLayer",
-      "RelativePath": "pizzapan-starter/assets/images/ayran.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\pizzapan-starter\\assets\\images\\ayran.jpg"
-    },
-    {
       "Identity": "C:\\Users\\ASUS\\Desktop\\Techcareer_Graduation_Project\\PizzaPan\\PizzaPan\\wwwroot\\pizzapan-starter\\assets\\images\\bbq_chicken.jpg",
       "SourceId": "PizzaPan.PresentationLayer",
       "SourceType": "Discovered",
@@ -1547,23 +1530,6 @@
       "OriginalItemSpec": "wwwroot\\pizzapan-starter\\assets\\images\\img-sprite.png"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\Desktop\\Techcareer_Graduation_Project\\PizzaPan\\PizzaPan\\wwwroot\\pizzapan-starter\\assets\\images\\kola.jpg",
-      "SourceId": "PizzaPan.PresentationLayer",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\Desktop\\Techcareer_Graduation_Project\\PizzaPan\\PizzaPan\\wwwroot\\",
-      "BasePath": "_content/PizzaPan.PresentationLayer",
-      "RelativePath": "pizzapan-starter/assets/images/kola.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\pizzapan-starter\\assets\\images\\kola.jpg"
-    },
-    {
       "Identity": "C:\\Users\\ASUS\\Desktop\\Techcareer_Graduation_Project\\PizzaPan\\PizzaPan\\wwwroot\\pizzapan-starter\\assets\\images\\menu.png",
       "SourceId": "PizzaPan.PresentationLayer",
       "SourceType": "Discovered",
@@ -1734,23 +1700,6 @@
       "OriginalItemSpec": "wwwroot\\pizzapan-starter\\assets\\images\\pizza-full.png"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\Desktop\\Techcareer_Graduation_Project\\PizzaPan\\PizzaPan\\wwwroot\\pizzapan-starter\\assets\\images\\stats.jpg",
-      "SourceId": "PizzaPan.PresentationLayer",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\Desktop\\Techcareer_Graduation_Project\\PizzaPan\\PizzaPan\\wwwroot\\",
-      "BasePath": "_content/PizzaPan.PresentationLayer",
-      "RelativePath": "pizzapan-starter/assets/images/stats.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\pizzapan-starter\\assets\\images\\stats.jpg"
-    },
-    {
       "Identity": "C:\\Users\\ASUS\\Desktop\\Techcareer_Graduation_Project\\PizzaPan\\PizzaPan\\wwwroot\\pizzapan-starter\\assets\\images\\teams1iconleft.png",
       "SourceId": "PizzaPan.PresentationLayer",
       "SourceType": "Discovered",
@@ -1800,40 +1749,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\pizzapan-starter\\assets\\images\\tonbalıklı_pizza_.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\ASUS\\Desktop\\Techcareer_Graduation_Project\\PizzaPan\\PizzaPan\\wwwroot\\pizzapan-starter\\assets\\images\\user_icon.jpg",
-      "SourceId": "PizzaPan.PresentationLayer",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\Desktop\\Techcareer_Graduation_Project\\PizzaPan\\PizzaPan\\wwwroot\\",
-      "BasePath": "_content/PizzaPan.PresentationLayer",
-      "RelativePath": "pizzapan-starter/assets/images/user_icon.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\pizzapan-starter\\assets\\images\\user_icon.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\ASUS\\Desktop\\Techcareer_Graduation_Project\\PizzaPan\\PizzaPan\\wwwroot\\pizzapan-starter\\assets\\images\\user_iconn.jpg",
-      "SourceId": "PizzaPan.PresentationLayer",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\Desktop\\Techcareer_Graduation_Project\\PizzaPan\\PizzaPan\\wwwroot\\",
-      "BasePath": "_content/PizzaPan.PresentationLayer",
-      "RelativePath": "pizzapan-starter/assets/images/user_iconn.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\pizzapan-starter\\assets\\images\\user_iconn.jpg"
     },
     {
       "Identity": "C:\\Users\\ASUS\\Desktop\\Techcareer_Graduation_Project\\PizzaPan\\PizzaPan\\wwwroot\\pizzapan-starter\\assets\\js\\bootstrap.min.js",

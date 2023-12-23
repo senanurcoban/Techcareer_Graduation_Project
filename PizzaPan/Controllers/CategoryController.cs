@@ -1,9 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using PizzaPan.BusinessLayer.Abstract;
 using PizzaPan.EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
+using System.Threading.Tasks;
 
 namespace PizzaPan.PresentationLayer.Controllers
 {
+    //[Authorize]
     public class CategoryController : Controller
     {
         private readonly ICategoryService _categoryService;
@@ -11,6 +15,7 @@ namespace PizzaPan.PresentationLayer.Controllers
         {
             _categoryService = categoryService;
         }
+       //[Authorize(Roles = "admin")]
         public IActionResult Index()
         {
             var values = _categoryService.TGetList();
