@@ -17,7 +17,7 @@ namespace PizzaPan.PresentationLayer.Models
             return new IdentityError()
             {
                 Code = "PasswordRequiresLower",
-                Description = "Parola çok kısa en 1 karakter girişi yapınız!"
+                Description = "Parola çok kısa en az bir karakter girişi daha yapınız!"
             };
         }
 
@@ -26,7 +26,7 @@ namespace PizzaPan.PresentationLayer.Models
             return new IdentityError()
             {
                 Code = "PasswordRequiresUpper",
-                Description = "Lütfen en az 1 büyük harf girişi yapınız!"
+                Description = "Lütfen en az bir büyük harf girişi yapınız!"
             };
         }
         public override IdentityError PasswordRequiresDigit()
@@ -34,7 +34,7 @@ namespace PizzaPan.PresentationLayer.Models
             return new IdentityError()
             {
                 Code = "PasswordRequiresDigit",
-                Description = "Lütfen en az en 1 sayı girişi yapınız!"
+                Description = "Lütfen en az bir sayı girişi yapınız!"
             };
         }
         public override IdentityError PasswordRequiresNonAlphanumeric()
@@ -42,7 +42,7 @@ namespace PizzaPan.PresentationLayer.Models
             return new IdentityError()
             {
                 Code = "PasswordRequiresNonAlphanumeric",
-                Description = "Lütfen en az 1 sembol girişi yapınız!"
+                Description = "Lütfen en az bir sembol girişi yapınız!"
             };
         }
     }

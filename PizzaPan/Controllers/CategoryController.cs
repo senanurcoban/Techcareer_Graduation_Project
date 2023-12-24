@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PizzaPan.PresentationLayer.Controllers
 {
-    //[Authorize]
+    //[Authorize(Roles = "admin")]
     public class CategoryController : Controller
     {
         private readonly ICategoryService _categoryService;
@@ -15,7 +15,7 @@ namespace PizzaPan.PresentationLayer.Controllers
         {
             _categoryService = categoryService;
         }
-       //[Authorize(Roles = "admin")]
+       
         public IActionResult Index()
         {
             var values = _categoryService.TGetList();
